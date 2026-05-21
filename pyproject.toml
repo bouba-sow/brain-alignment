@@ -1,0 +1,41 @@
+[project]
+name = "benchmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.13.0",
+    "loguru>=0.7.3",
+    "mlem",
+    "nbformat>=5.10.4",
+    "neuralset>=0.2.0",
+    "nilearn>=0.13.1",
+    "plotly>=6.7.0",
+    "pybv>=0.7.6",
+    "pyside6>=6.11.0",
+    "pyvistaqt>=0.11.4",
+    "seaborn>=0.13.2",
+    "torch>=2.4.0",
+    "torchaudio>=2.4.0",
+    "torchvision>=0.19.0",
+    "transformers>=4.29.2",
+    "xarray>=2026.4.0",
+]
+
+# CUDA 12.4 wheels (Linux + GPU). ``uv sync`` uses PyPI for everything else.
+# Switch URL to cu121/cu118 if your driver needs it (see pytorch.org/get-started).
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+torchaudio = { index = "pytorch-cu124" }
+torchvision = { index = "pytorch-cu124" }
+mlem = { git = "https://github.com/LouisJalouzot/MLEM.git" }
+
+
+# Jean Zay: the shared ``python-3.12.7`` miniforge env is read-only. Deactivate it,
+# ``cd`` to this repo, then ``uv sync`` so packages install into ``.venv``.
