@@ -1,0 +1,2 @@
+model_label,n_params_b,log10_n_params,mean_roi_pearson
+Pythia-12B-deduped,12.0,10.079181246047625,0.47220083464854457

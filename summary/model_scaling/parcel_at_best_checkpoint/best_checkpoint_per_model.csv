@@ -1,0 +1,6 @@
+model_label,model_dir,n_params_b,best_step,best_layer,mean_encoding
+Pythia-1.4B-deduped,EleutherAI_pythia-1.4b-deduped,1.4,143000,11,0.4114138274376835
+Pythia-12B-deduped,EleutherAI_pythia-12b-deduped,12.0,143000,16,0.4294445031593235
+Pythia-1B-deduped,EleutherAI_pythia-1b-deduped,1.0,143000,9,0.4041050539561024
+Pythia-2.8B-deduped,EleutherAI_pythia-2.8b-deduped,2.8,143000,13,0.4150101569001145
+Pythia-6.9B-deduped,EleutherAI_pythia-6.9b-deduped,6.9,143000,13,0.4252019337221716

@@ -1,0 +1,61 @@
+{
+  "final_checkpoint": {
+    "n": 5,
+    "linear_r2": 0.9484834004904488,
+    "quad_r2": 0.9735947000501014,
+    "linear_slope": 0.024960644897353383,
+    "linear_intercept": 0.18965478221729629,
+    "linear_r": 0.9739011245965623,
+    "linear_pvalue": 0.005041491326841484,
+    "quad_a": -0.014836270121076769,
+    "quad_b": 0.30795779590409905,
+    "quad_c": -1.157389542963126,
+    "vertex_log10_n_params": 10.378545058525413,
+    "vertex_mean_pearson": 0.44068738749430647,
+    "inverse_u_in_range": false,
+    "preferred_model": "scaling_up",
+    "step": 143000,
+    "metric": "mean_pearson"
+  },
+  "reference_steps": [
+    {
+      "n": 1,
+      "linear_r2": NaN,
+      "quad_r2": NaN,
+      "step": 0,
+      "metric": "mean_pearson"
+    },
+    {
+      "n": 1,
+      "linear_r2": NaN,
+      "quad_r2": NaN,
+      "step": 8000,
+      "metric": "mean_pearson"
+    },
+    {
+      "n": 1,
+      "linear_r2": NaN,
+      "quad_r2": NaN,
+      "step": 32000,
+      "metric": "mean_pearson"
+    },
+    {
+      "n": 5,
+      "linear_r2": 0.9484834004904488,
+      "quad_r2": 0.9735947000501014,
+      "linear_slope": 0.024960644897353383,
+      "linear_intercept": 0.18965478221729629,
+      "linear_r": 0.9739011245965623,
+      "linear_pvalue": 0.005041491326841484,
+      "quad_a": -0.014836270121076769,
+      "quad_b": 0.30795779590409905,
+      "quad_c": -1.157389542963126,
+      "vertex_log10_n_params": 10.378545058525413,
+      "vertex_mean_pearson": 0.44068738749430647,
+      "inverse_u_in_range": false,
+      "preferred_model": "scaling_up",
+      "step": 143000,
+      "metric": "mean_pearson"
+    }
+  ]
+}

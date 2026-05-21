@@ -1,0 +1,42 @@
+[
+  {
+    "model_label": "Pythia-1.4B-deduped",
+    "model_dir": "EleutherAI_pythia-1.4b-deduped",
+    "n_params_b": 1.4,
+    "best_step": 143000,
+    "best_layer": 11,
+    "mean_encoding": 0.4114138274376835
+  },
+  {
+    "model_label": "Pythia-12B-deduped",
+    "model_dir": "EleutherAI_pythia-12b-deduped",
+    "n_params_b": 12.0,
+    "best_step": 143000,
+    "best_layer": 16,
+    "mean_encoding": 0.4294445031593235
+  },
+  {
+    "model_label": "Pythia-1B-deduped",
+    "model_dir": "EleutherAI_pythia-1b-deduped",
+    "n_params_b": 1.0,
+    "best_step": 143000,
+    "best_layer": 9,
+    "mean_encoding": 0.4041050539561024
+  },
+  {
+    "model_label": "Pythia-2.8B-deduped",
+    "model_dir": "EleutherAI_pythia-2.8b-deduped",
+    "n_params_b": 2.8,
+    "best_step": 143000,
+    "best_layer": 13,
+    "mean_encoding": 0.4150101569001145
+  },
+  {
+    "model_label": "Pythia-6.9B-deduped",
+    "model_dir": "EleutherAI_pythia-6.9b-deduped",
+    "n_params_b": 6.9,
+    "best_step": 143000,
+    "best_layer": 13,
+    "mean_encoding": 0.4252019337221716
+  }
+]

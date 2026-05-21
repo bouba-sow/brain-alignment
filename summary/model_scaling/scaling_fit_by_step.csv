@@ -1,0 +1,5 @@
+n,linear_r2,quad_r2,step,metric,linear_slope,linear_intercept,linear_r,linear_pvalue,quad_a,quad_b,quad_c,vertex_log10_n_params,vertex_mean_pearson,inverse_u_in_range,preferred_model
+1,,,0,mean_pearson,,,,,,,,,,,
+1,,,8000,mean_pearson,,,,,,,,,,,
+1,,,32000,mean_pearson,,,,,,,,,,,
+5,0.9484834004904488,0.9735947000501014,143000,mean_pearson,0.024960644897353383,0.18965478221729629,0.9739011245965623,0.005041491326841484,-0.014836270121076769,0.30795779590409905,-1.157389542963126,10.378545058525413,0.44068738749430647,False,scaling_up
