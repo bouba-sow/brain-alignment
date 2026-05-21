@@ -6,6 +6,7 @@
 
 ## install the dependencies and activate the environment
 uv sync
+
 source .venv/bin/activate
 
 ## install pip and ipykernels
